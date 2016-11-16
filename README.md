@@ -1,0 +1,2 @@
+# mklint
+Settings for linters
