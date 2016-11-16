@@ -1,0 +1,17 @@
+# Use only ascii symbols in comments.
+AsciiComments:
+  Enabled: false
+LineLength:
+  Max: 140
+AllCops:
+  TargetRubyVersion: 2.3
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/NumericLiteralPrefix:
+  Enabled: false
+Style/FormatString:
+  EnforcedStyle: percent
+Documentation:
+  Enabled: false
+Style/Lambda:
+  Enabled: false
