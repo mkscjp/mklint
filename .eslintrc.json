@@ -33,6 +33,7 @@
     "template-curly-spacing": "error",
     "yield-star-spacing": "error",
     "indent": ["error", 2],
-    "semi": "error"
+    "semi": "error",
+    "eqeqeq": "error"
   }
 }
