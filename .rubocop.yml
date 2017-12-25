@@ -4,7 +4,7 @@ AsciiComments:
 LineLength:
   Max: 140
 AllCops:
-  TargetRubyVersion: 2.3 #2.4
+  TargetRubyVersion: 2.4 #2.4
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/NumericLiteralPrefix:
@@ -17,3 +17,12 @@ Style/Lambda:
   Enabled: false
 Rails:
   Enabled: true
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
