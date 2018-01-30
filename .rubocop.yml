@@ -22,7 +22,5 @@ Style/BlockDelimiters:
     - 'spec/**/*'
 Style/EmptyMethod:
   EnforcedStyle: expanded
-Lint/AmbiguousBlockAssociation:
-  Enabled: false
 Style/Documentation:
   Enabled: false
