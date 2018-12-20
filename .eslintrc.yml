@@ -19,6 +19,7 @@ rules:
   no-useless-constructor: error
   no-useless-rename: error
   no-var: error
+  no-cond-assign: error
   object-shorthand: error
   prefer-const: error
   prefer-rest-params: error
