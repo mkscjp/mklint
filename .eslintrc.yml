@@ -31,7 +31,11 @@ rules:
   indent:
   - error
   - 2
-  semi: error
+  semi:
+  - error
+  - never
+  beforeStatementContinuationChars: never
+  no-unexpected-multiline: error
   eqeqeq: error
   no-console: warn
   no-debugger: warn
