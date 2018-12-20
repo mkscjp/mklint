@@ -3,6 +3,8 @@ extends:
 plugins: []
 parserOptions:
   sourceType: module
+  ecmaFeatures:
+    jsx: true
 env:
   browser: true
   es6: true
@@ -19,6 +21,7 @@ rules:
   no-useless-constructor: error
   no-useless-rename: error
   no-var: error
+  no-cond-assign: error
   object-shorthand: error
   prefer-const: error
   prefer-rest-params: error
@@ -30,7 +33,12 @@ rules:
   indent:
   - error
   - 2
-  semi: error
+  semi:
+  - error
+  - never
+  - beforeStatementContinuationChars: never
+  no-unexpected-multiline: error
   eqeqeq: error
   no-console: warn
+  no-debugger: warn
   prefer-arrow-callback: warn
