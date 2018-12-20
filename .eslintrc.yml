@@ -33,4 +33,5 @@ rules:
   semi: error
   eqeqeq: error
   no-console: warn
+  no-debugger: warn
   prefer-arrow-callback: warn
