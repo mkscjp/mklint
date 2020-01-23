@@ -1,26 +1,23 @@
-AsciiComments:
-  Enabled: false
-LineLength:
+require: rubocop-rails
+Layout/LineLength:
   Max: 140
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
+Style/AsciiComments:
+  Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/NumericLiteralPrefix:
   Enabled: false
 Style/FormatString:
   EnforcedStyle: percent
-Documentation:
+Style/Documentation:
   Enabled: false
 Style/Lambda:
   Enabled: false
-Rails:
-  Enabled: true
-Metrics/BlockLength:
-  Exclude:
-    - 'spec/**/*'
 Style/BlockDelimiters:
   Exclude:
     - 'spec/**/*'
 Style/EmptyMethod:
   EnforcedStyle: expanded
-Style/Documentation:
-  Enabled: false
