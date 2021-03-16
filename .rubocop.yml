@@ -12,6 +12,8 @@ Style/NumericLiteralPrefix:
   Enabled: false
 Style/FormatString:
   EnforcedStyle: percent
+Style/FormatStringToken:
+  EnforcedStyle: unannotated
 Style/Documentation:
   Enabled: false
 Style/Lambda:
